@@ -41,11 +41,12 @@ The main problem addressed in this project is the lack of labeled aspect-level d
 ---
 
 ## Visual Abstract
+## Visual Abstract
 
 The following diagram summarizes the end-to-end pipeline, from medical device documentation to synthetic review generation, validation, model training, and evaluation.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Medical Device Documentation] --> B[Documentation Text Extraction]
     B --> C[Text Cleaning and Chunking]
     C --> D[Aspect Extraction]
@@ -603,14 +604,12 @@ plot_model_comparison.py
 
 ## Presentations
 
-The repository includes the project presentations:
+The repository includes the interim and final project presentations in both PDF and PowerPoint formats.
 
-```text
-presentations/interim_presentation.pdf
-presentations/interim_presentation.pptx
-presentations/final_presentation.pdf
-presentations/final_presentation.pptx
-```
+| Presentation | PDF | PowerPoint |
+|---|---|---|
+| Interim Presentation | [View / Download PDF](presentations/Interim_Presentation.pdf) | [Download PPTX](presentations/Interim_Presentation.pptx) |
+| Final Presentation | [View / Download PDF](presentations/Final_Presentation.pdf) | [Download PPTX](presentations/Final_Presentation.pptx) |
 
 The interim presentation describes the initial project definition, dataset generation process, validation checks, baseline RoBERTa model, and preliminary results.
 
