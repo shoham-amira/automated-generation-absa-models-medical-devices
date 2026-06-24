@@ -1,0 +1,66 @@
+{
+  "nuance_attributes": [
+    {
+      "dimension_name": "reviewer_profession",
+      "description": "The professional background or role of the person writing the review",
+      "possible_values": [
+        "clinician",
+        "biomedical_engineer",
+        "medical_student",
+        "device_technician",
+        "procurement_specialist"
+      ]
+    },
+    {
+      "dimension_name": "experience_level",
+      "description": "The level of familiarity or expertise the reviewer has with the device or similar devices",
+      "possible_values": [
+        "novice",
+        "intermediate",
+        "expert"
+      ]
+    },
+    {
+      "dimension_name": "usage_context",
+      "description": "The clinical or operational setting in which the device is used or evaluated",
+      "possible_values": [
+        "emergency_room",
+        "intensive_care_unit",
+        "cardiology_lab",
+        "field_hospital",
+        "training_simulation"
+      ]
+    },
+    {
+      "dimension_name": "review_detail_level",
+      "description": "The amount of technical detail and depth included in the review",
+      "possible_values": [
+        "brief_summary",
+        "moderate_detail",
+        "in_depth_technical"
+      ]
+    },
+    {
+      "dimension_name": "review_perspective",
+      "description": "The angle or focus of the review, such as practical use or technical evaluation",
+      "possible_values": [
+        "clinical_effectiveness",
+        "ease_of_use",
+        "technical_performance",
+        "safety_considerations",
+        "battery_life_focus"
+      ]
+    },
+    {
+      "dimension_name": "review_type",
+      "description": "The nature or purpose of the review being written",
+      "possible_values": [
+        "product_comparison",
+        "user_experience",
+        "technical_evaluation",
+        "training_feedback",
+        "procurement_recommendation"
+      ]
+    }
+  ]
+}

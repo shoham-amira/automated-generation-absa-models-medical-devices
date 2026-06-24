@@ -1,0 +1,146 @@
+{
+  "ease_of_use": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        25,
+        5,
+        0
+      ],
+      [
+        1,
+        231,
+        1
+      ],
+      [
+        0,
+        2,
+        29
+      ]
+    ]
+  },
+  "durability_and_build_quality": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        40,
+        4,
+        0
+      ],
+      [
+        0,
+        209,
+        0
+      ],
+      [
+        0,
+        1,
+        40
+      ]
+    ]
+  },
+  "cleaning_and_maintenance": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        39,
+        8,
+        0
+      ],
+      [
+        11,
+        195,
+        0
+      ],
+      [
+        0,
+        6,
+        35
+      ]
+    ]
+  },
+  "compatibility_with_syringes": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        34,
+        3,
+        0
+      ],
+      [
+        0,
+        225,
+        0
+      ],
+      [
+        0,
+        2,
+        30
+      ]
+    ]
+  },
+  "storage_and_handling": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        24,
+        15,
+        0
+      ],
+      [
+        0,
+        217,
+        0
+      ],
+      [
+        0,
+        5,
+        33
+      ]
+    ]
+  },
+  "performance_in_fluid_delivery": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        42,
+        0,
+        0
+      ],
+      [
+        0,
+        224,
+        1
+      ],
+      [
+        0,
+        2,
+        25
+      ]
+    ]
+  }
+}

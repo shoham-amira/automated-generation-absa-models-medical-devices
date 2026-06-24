@@ -1,0 +1,170 @@
+{
+  "pacing_modes": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        14,
+        23,
+        0
+      ],
+      [
+        2,
+        233,
+        1
+      ],
+      [
+        0,
+        6,
+        18
+      ]
+    ]
+  },
+  "battery_life": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        33,
+        3,
+        0
+      ],
+      [
+        0,
+        218,
+        4
+      ],
+      [
+        1,
+        7,
+        31
+      ]
+    ]
+  },
+  "device_portability": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        25,
+        3,
+        0
+      ],
+      [
+        3,
+        226,
+        1
+      ],
+      [
+        0,
+        1,
+        38
+      ]
+    ]
+  },
+  "output_adjustability": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        2,
+        31,
+        0
+      ],
+      [
+        0,
+        223,
+        5
+      ],
+      [
+        0,
+        24,
+        12
+      ]
+    ]
+  },
+  "sensitivity_and_detection": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        21,
+        8,
+        0
+      ],
+      [
+        0,
+        235,
+        0
+      ],
+      [
+        0,
+        4,
+        29
+      ]
+    ]
+  },
+  "safety_features": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        16,
+        13,
+        0
+      ],
+      [
+        0,
+        242,
+        0
+      ],
+      [
+        0,
+        13,
+        13
+      ]
+    ]
+  },
+  "rate_range": {
+    "labels": [
+      "negative",
+      "not_mentioned",
+      "positive"
+    ],
+    "matrix": [
+      [
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        256,
+        0
+      ],
+      [
+        0,
+        17,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "input_file": "C:\\Users\\User\\Documents\\NLP\\review_generator\\data\\uroject12\\processed\\synthetic_reviews_2000_dedup.jsonl",
+  "total_reviews": 1960,
+  "valid_reviews": 1960,
+  "invalid_reviews": 0,
+  "duplicate_review_texts": 0,
+  "duplicate_extra_rows": 0,
+  "aspect_score_vector_keys": [
+    "ease_of_use",
+    "durability_and_build_quality",
+    "cleaning_and_maintenance",
+    "compatibility_with_syringes",
+    "storage_and_handling",
+    "performance_in_fluid_delivery"
+  ],
+  "rows_with_inconsistent_aspect_score_keys": 0,
+  "selected_aspect_count_distribution": {
+    "1": 958,
+    "2": 1002
+  },
+  "aspect_distribution": {
+    "ease_of_use": 480,
+    "performance_in_fluid_delivery": 482,
+    "cleaning_and_maintenance": 540,
+    "compatibility_with_syringes": 443,
+    "durability_and_build_quality": 516,
+    "storage_and_handling": 501
+  },
+  "score_distribution": {
+    "negative": 1495,
+    "positive": 1467
+  },
+  "errors": {},
+  "aspect_score_distribution": {
+    "ease_of_use|negative": 254,
+    "performance_in_fluid_delivery|positive": 230,
+    "cleaning_and_maintenance|negative": 267,
+    "compatibility_with_syringes|positive": 221,
+    "durability_and_build_quality|positive": 265,
+    "durability_and_build_quality|negative": 251,
+    "storage_and_handling|positive": 252,
+    "performance_in_fluid_delivery|negative": 252,
+    "ease_of_use|positive": 226,
+    "compatibility_with_syringes|negative": 222,
+    "cleaning_and_maintenance|positive": 273,
+    "storage_and_handling|negative": 249
+  }
+}

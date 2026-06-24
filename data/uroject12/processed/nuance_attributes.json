@@ -1,0 +1,58 @@
+{
+  "nuance_attributes": [
+    {
+      "dimension_name": "reviewer_experience_level",
+      "description": "The level of familiarity or expertise of the reviewer with medical devices or sterilization procedures.",
+      "possible_values": [
+        "novice",
+        "intermediate",
+        "expert"
+      ]
+    },
+    {
+      "dimension_name": "usage_context",
+      "description": "The environment or setting in which the reviewer used the device, such as clinical or training setting.",
+      "possible_values": [
+        "clinical_procedure",
+        "training_session",
+        "research_lab"
+      ]
+    },
+    {
+      "dimension_name": "writing_style",
+      "description": "The tone and approach used in the review, ranging from technical and formal to casual and informal.",
+      "possible_values": [
+        "technical_formal",
+        "casual",
+        "detailed"
+      ]
+    },
+    {
+      "dimension_name": "review_detail_level",
+      "description": "The amount of detail and specificity included in the review, from high-level summaries to in-depth analysis.",
+      "possible_values": [
+        "overview",
+        "moderate_detail",
+        "comprehensive"
+      ]
+    },
+    {
+      "dimension_name": "review_purpose",
+      "description": "The intent behind the review, such as to inform, critique, or share user experience.",
+      "possible_values": [
+        "informative",
+        "critical",
+        "experiential"
+      ]
+    },
+    {
+      "dimension_name": "review_timing",
+      "description": "When the review is written relative to the device's use, such as immediately after use or after extended testing.",
+      "possible_values": [
+        "immediate",
+        "short_term",
+        "long_term"
+      ]
+    }
+  ]
+}

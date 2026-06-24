@@ -1,0 +1,41 @@
+# Environment variables and API keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Hugging Face model binaries
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Trained model output folders
+data/*/models/
+
+# Training checkpoints
+checkpoint-*/
+**/checkpoint-*/
+
+# Optional cache folders
+.cache/

@@ -1,0 +1,52 @@
+{
+  "input_file": "C:\\Users\\User\\Documents\\NLP\\review_generator\\data\\MEDTRONIC_53401\\processed\\synthetic_reviews_2000_dedup.jsonl",
+  "total_reviews": 1980,
+  "valid_reviews": 1980,
+  "invalid_reviews": 0,
+  "duplicate_review_texts": 0,
+  "duplicate_extra_rows": 0,
+  "aspect_score_vector_keys": [
+    "pacing_modes",
+    "battery_life",
+    "device_portability",
+    "output_adjustability",
+    "sensitivity_and_detection",
+    "safety_features",
+    "rate_range"
+  ],
+  "rows_with_inconsistent_aspect_score_keys": 0,
+  "selected_aspect_count_distribution": {
+    "2": 952,
+    "1": 1028
+  },
+  "aspect_distribution": {
+    "battery_life": 465,
+    "pacing_modes": 470,
+    "output_adjustability": 455,
+    "rate_range": 251,
+    "sensitivity_and_detection": 420,
+    "device_portability": 458,
+    "safety_features": 413
+  },
+  "score_distribution": {
+    "positive": 1395,
+    "negative": 1537
+  },
+  "errors": {},
+  "aspect_score_distribution": {
+    "battery_life|positive": 241,
+    "pacing_modes|negative": 254,
+    "output_adjustability|negative": 253,
+    "rate_range|negative": 139,
+    "sensitivity_and_detection|positive": 208,
+    "device_portability|positive": 221,
+    "safety_features|negative": 218,
+    "pacing_modes|positive": 216,
+    "safety_features|positive": 195,
+    "device_portability|negative": 237,
+    "rate_range|positive": 112,
+    "output_adjustability|positive": 202,
+    "sensitivity_and_detection|negative": 212,
+    "battery_life|negative": 224
+  }
+}

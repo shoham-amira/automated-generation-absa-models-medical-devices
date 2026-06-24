@@ -1,0 +1,14 @@
+{
+  "eval_loss": 0.09253297001123428,
+  "eval_mae": 0.20724712312221527,
+  "eval_rmse": 0.30419229955748894,
+  "eval_element_accuracy": 0.8941798941798942,
+  "eval_exact_vector_match": 0.40404040404040403,
+  "eval_macro_f1": 0.7636131701893735,
+  "eval_precision": 0.9076645220952534,
+  "eval_recall": 0.6871418727679202,
+  "eval_runtime": 26.5625,
+  "eval_samples_per_second": 11.181,
+  "eval_steps_per_second": 1.431,
+  "epoch": 3.0
+}

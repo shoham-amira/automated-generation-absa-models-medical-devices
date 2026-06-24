@@ -1,0 +1,32 @@
+{
+  "aspects": [
+    {
+      "aspect_name": "pacing_modes",
+      "description": "Users would comment on the variety and flexibility of pacing modes available for different clinical needs."
+    },
+    {
+      "aspect_name": "battery_life",
+      "description": "Users would discuss how long the device operates on battery power during typical use."
+    },
+    {
+      "aspect_name": "device_portability",
+      "description": "Users would mention the weight, size, and ease of handling the device in clinical settings."
+    },
+    {
+      "aspect_name": "output_adjustability",
+      "description": "Users would evaluate the ability to adjust pacing output amplitude to suit patient requirements."
+    },
+    {
+      "aspect_name": "sensitivity_and_detection",
+      "description": "Users would comment on how well the device senses intrinsic heart rhythms and avoids oversensing."
+    },
+    {
+      "aspect_name": "safety_features",
+      "description": "Users would review the device’s built-in safety mechanisms to prevent pacing errors or complications."
+    },
+    {
+      "aspect_name": "rate_range",
+      "description": "Users would discuss the range of pacing rates supported, including rapid atrial pacing capabilities."
+    }
+  ]
+}

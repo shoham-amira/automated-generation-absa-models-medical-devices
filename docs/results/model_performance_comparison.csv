@@ -1,0 +1,5 @@
+Device,Model,Device + Model,Element Accuracy,Exact Match,Macro F1,Precision,Recall
+Uroject12,RoBERTa,Uroject12 - RoBERTa,95.46,78.23,93.04,93.77,92.39
+Uroject12,DeBERTa,Uroject12 - DeBERTa,96.2,79.93,94.07,96.5,91.91
+Medtronic 53401,RoBERTa,Medtronic 53401 - RoBERTa,89.42,40.4,76.36,90.77,68.71
+Medtronic 53401,DeBERTa,Medtronic 53401 - DeBERTa,90.67,46.46,79.38,92.62,72.1

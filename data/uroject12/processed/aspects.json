@@ -1,0 +1,28 @@
+{
+  "aspects": [
+    {
+      "aspect_name": "ease_of_use",
+      "description": "Users would comment on how easy or difficult it is to operate the syringe lever, including the smoothness of the lever and clutch mechanism."
+    },
+    {
+      "aspect_name": "durability_and_build_quality",
+      "description": "Users would comment on the device's physical condition over time, including signs of wear, damage, or corrosion."
+    },
+    {
+      "aspect_name": "cleaning_and_maintenance",
+      "description": "Users would comment on the ease, clarity, and effectiveness of cleaning, disinfecting, and sterilizing the device."
+    },
+    {
+      "aspect_name": "compatibility_with_syringes",
+      "description": "Users would comment on how well the device works with the specified 20 mL syringes it is designed to hold."
+    },
+    {
+      "aspect_name": "storage_and_handling",
+      "description": "Users would comment on the convenience and practicality of storing and handling the device between uses."
+    },
+    {
+      "aspect_name": "performance_in_fluid_delivery",
+      "description": "Users would comment on the device’s effectiveness and reliability in delivering fluids accurately during procedures."
+    }
+  ]
+}
