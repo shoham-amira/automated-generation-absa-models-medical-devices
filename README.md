@@ -41,7 +41,6 @@ The main problem addressed in this project is the lack of labeled aspect-level d
 ---
 
 ## Visual Abstract
-## Visual Abstract
 
 The following diagram summarizes the end-to-end pipeline, from medical device documentation to synthetic review generation, validation, model training, and evaluation.
 
@@ -77,6 +76,20 @@ Each dataset contains synthetic review records with:
 - nuance attributes
 
 The datasets were generated automatically using an LLM and then validated using rule-based and LLM-based quality checks.
+
+### Source Documentation
+
+| Device | Medical Device Documentation |
+|---|---|
+| Uroject12 | [View / Download PDF](data/uroject12/raw/uroject12-syringe-lever-instructions.pdf) |
+| Medtronic 53401 | [View / Download PDF](data/MEDTRONIC_53401/raw/Medtronic-53401-Single-Chamber-Temporary-Pacemaker-Specifications.pdf) |
+
+### Dataset Files
+
+| Dataset | Deduplicated Reviews | Aspects | Nuance Attributes |
+|---|---|---|---|
+| Uroject12 | [View / Download JSONL](data/uroject12/processed/synthetic_reviews_2000_dedup.jsonl) | [View JSON](data/uroject12/processed/aspects.json) | [View JSON](data/uroject12/processed/nuance_attributes.json) |
+| Medtronic 53401 | [View / Download JSONL](data/MEDTRONIC_53401/processed/synthetic_reviews_2000_dedup.jsonl) | [View JSON](data/MEDTRONIC_53401/processed/aspects.json) | [View JSON](data/MEDTRONIC_53401/processed/nuance_attributes.json) |
 
 ---
 
@@ -162,7 +175,7 @@ Example generated synthetic review records:
 The project pipeline contains the following stages:
 
 1. Medical device documentation collection
-2. text extraction
+2. Documentation text extraction
 3. Text cleaning and chunking
 4. Aspect extraction
 5. Nuance attribute extraction
@@ -207,9 +220,9 @@ The models were trained using a multi-output regression setup.
 
 Loss function:
 
-```text
-MSE = 1/n Σ(yᵢ - ŷᵢ)²
-```
+$$
+MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2
+$$
 
 Prediction thresholds:
 
@@ -671,7 +684,7 @@ The overall comparison plot is generated from the paths defined in `MODEL_COMPAR
 
 This configuration lists the device name, model name, and path to each model's `overall_test_metrics.json` file.
 
-To control which results appear in the comparison plot, add, remove, or edit entries in `MODEL_COMPARISON_CONFIG` before regenerating the plot.
+To control which results appear in the comparison plot, add, remove, or edit entries in `MODEL_COMPARISON_CONFIG` before running the comparison plot script.
 
 Run the main pipeline:
 
@@ -721,7 +734,7 @@ python src/visualization/plot_model_comparison.py
 - Hugging Face Transformers
 - RoBERTa
 - DeBERTa
-- OpenAI API
+- OpenAI API (`gpt-4.1-mini`)
 - Matplotlib
 
 ---
